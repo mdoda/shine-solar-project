@@ -1,0 +1,7 @@
+.items-row {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: rgb(226, 223, 223);
+}

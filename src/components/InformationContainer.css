@@ -1,0 +1,31 @@
+.list {
+    padding: 1rem;
+    background-color: #F5F6F7;
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-auto-rows: 400px;
+}
+
+button{
+    margin:auto;
+    height:30px;
+    width: 100px;
+    border-radius: 10px;    
+    background-color: #2485E1;  
+    color: white;
+    border-style:initial;
+}
+
+button:hover{
+    background-color: rgb(64, 124, 143);  
+}
+
+.items-list{
+    overflow-y:scroll;
+}
+ 
+p{
+    margin: 2rem 0 0 2rem;
+} 
